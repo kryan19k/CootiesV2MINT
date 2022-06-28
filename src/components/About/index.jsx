@@ -124,19 +124,7 @@ const About = () => {
                                         </p>
                                         <p>
                                             So come join us on July 6th and get
-                                            your very own Cootie! this goes on
-                                            the metaverse ready portion "A
-                                            Metaverse is a virtual world that
-                                            uses blockchain technology to create
-                                            a decentralized and secure
-                                            environment. NFTs can be used to
-                                            represent virtual assets in a
-                                            Metaverse, such as land, buildings,
-                                            or characters. Metaverse-ready NFTs
-                                            are designed to be compatible with
-                                            the Metaverse protocol, making them
-                                            easy to use in a Metaverse
-                                            environment."
+                                            your very own Cootie!
                                         </p>
                                     </div>
                                 </Col>
@@ -160,7 +148,18 @@ const About = () => {
                                     <Card
                                         img={Icon3}
                                         title="Metaverse Ready"
-                                        paragraph="Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure."
+                                        paragraph="A
+                                            Metaverse is a virtual world that
+                                            uses blockchain technology to create
+                                            a decentralized and secure
+                                            environment. NFTs can be used to
+                                            represent virtual assets in a
+                                            Metaverse, such as land, buildings,
+                                            or characters. Metaverse-ready NFTs
+                                            are designed to be compatible with
+                                            the Metaverse protocol, making them
+                                            easy to use in a Metaverse
+                                            environment."
                                     />
                                 </Col>
                             </Row>
