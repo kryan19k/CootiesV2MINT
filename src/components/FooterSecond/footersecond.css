@@ -1,0 +1,106 @@
+.fs-about p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Inter', sans-serif;
+    padding-top: 30px;
+}
+
+.fs-form h2,
+.fs-menu h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 45px;
+    color: #FFFFFF;
+    font-family: 'Bungee';
+}
+
+.fs-menu ul {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.fs-menu ul a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Inter', sans-serif;
+    transition: all .3s;
+    display: inline-block;
+}
+
+.fs-menu ul a:hover {
+    transform: translateX(4px);
+    color: #fff;
+}
+
+.fs-email-form {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.fs-email-form .form-control {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Inter', sans-serif;
+    width: 370px;
+    height: 60px;
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+    padding: 0 1.4rem;
+    border-right: 0;
+}
+
+.fs-email-form .form-control::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.fs-email-form .btn {
+    width: 70px;
+    height: 60px;
+    background: #00FFA3;
+    border-radius: 0;
+}
+
+.fs-email-form .btn:hover {
+    background-color: #01d688;
+}
+
+.footer-second-box {
+    padding-top: 140px;
+    background-image: url('./../../assets/images/footer-second.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fs-social {
+    justify-content: flex-end;
+}
+
+.fs-social a svg {
+    transition: all .3s;
+}
+
+.fs-social a:hover svg {
+    transform: scale(1.4);
+}
+
+.fs-bottom-menu {
+    justify-content: center;
+}
+
+.fsb-bg {
+    margin-top: 140px;
+}

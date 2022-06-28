@@ -1,0 +1,140 @@
+.footer-box {
+    background-image: url('../../assets/images/footer/footer-bg.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-join {
+    padding-bottom: 370px;
+}
+
+.footer-join h2 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-join img {
+    margin: auto;
+    display: block;
+    padding: 1rem 0 3rem 0;
+}
+
+.footer-join-btn {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.footer-white-btn {
+    background-color: #00FFA3;
+
+}
+
+.footer-white-btn:hover {
+    background-color: #00c07a;
+}
+
+.footer-dicord-icon {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.footer-dicord-icon svg:last-of-type {
+    height: 20px;
+    width: 20px;
+}
+
+
+.footer-social-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.footer-social-link button {
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: none;
+    position: relative;
+}
+
+.footer-social-link button svg:last-of-type {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.footer-social-link button:hover svg:last-of-type {
+    visibility: visible;
+    opacity: 1;
+}
+
+.footer-bottom-bg {
+    background-image: url('./../../assets/images/footer/footer-bottom-bg.png');
+    background-position: center;
+    background-size: cover;
+    padding: 10px 0;
+}
+
+.footer-bottom-logo img {
+    height: 89px;
+}
+
+.footer-bottom-content {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.footer-bottom-content p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-bottom-content button {
+    background: none;
+    border: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.footer-bottom-content button svg {
+    height: 30px;
+    width: 30px;
+}
+
+.footer-bottom-menu {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.footer-bottom-menu a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Inter', sans-serif;
+    transition: all .3s;
+}
+
+.footer-bottom-menu a:hover {
+    color: #00FFA3;
+}

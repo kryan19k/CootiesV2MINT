@@ -1,0 +1,35 @@
+.hs-right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.hs-right-nav a {
+    margin: 0 10px;
+}
+
+.hs-right-nav a svg {
+    height: 20px;
+    width: 20px;
+    fill: #fff;
+    transition: all .3s;
+}
+
+.hs-right-nav a:hover svg {
+    fill: #00FFA3 !important;
+}
+.hs-right-nav a:hover svg:first-of-type path {
+    fill: #00FFA3;
+}
+.hs-right-nav button {
+    margin-left: 20px !important;
+}
+
+.header-second-box {
+    padding: 10px 0;
+}
+
+.header-second-box .navbar-toggler svg{
+    fill: #fff;
+    height: 30px;
+    width: 30px;
+}

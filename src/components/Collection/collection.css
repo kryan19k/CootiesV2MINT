@@ -1,0 +1,22 @@
+.collection-box {
+    position: relative;
+    margin: 3rem 0;
+}
+
+.collection-img img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    min-height: 230px;
+}
+
+.collection-blur-layer {
+    position: absolute;
+    z-index: -9;
+    top: -20vh;
+    left: 10vh
+}
+
+.collection-blur-layer img {
+    filter: blur(90px);
+}

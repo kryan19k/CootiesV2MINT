@@ -1,0 +1,44 @@
+.bj-btn-1 {
+    background-color: #00FFA3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bj-btn-1:hover {
+    background-color: #01ce83;
+}
+
+.bj-btn-2 {
+    background-color: #5865F2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bj-btn-2:hover {
+    background-color: #3e4ac7;
+}
+
+.blog-join-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.4rem;
+}
+
+.blog-join-left h2 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.blog-join-box {
+    background-image: url('./../../assets/images/join-banner.png');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+}

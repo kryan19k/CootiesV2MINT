@@ -1,0 +1,32 @@
+.about-card-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.about-card-head img {
+    height: 40px;
+}
+
+.about-card-head h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.about-card-box {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px 35px;
+    height: 183.86px;
+    margin-top: 2.4rem;
+}
+
+.about-card-box p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Inter', sans-serif;
+}

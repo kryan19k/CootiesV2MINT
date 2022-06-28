@@ -1,0 +1,98 @@
+.teamcard-box {
+    background-color: #1B2428;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.teamcard-box>svg:first-of-type {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.teamcard-box>svg:last-of-type {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.teamcard-box:hover>svg {
+    visibility: visible;
+    opacity: 1;
+}
+
+.teamcard-img {
+    margin-bottom: 50px;
+}
+
+.teamcard-img img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.teamcard-box h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+    padding-bottom: 6px;
+}
+
+.teamcard-box p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 1rem;
+}
+
+.teamcard-social {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    transition: all .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.teamcard-social button {
+    background: none;
+    border: 0;
+    width: 36px;
+    height: 36px;
+    background-color: #0F181D;
+    color: #fff;
+    font-size: 16px;
+    transition: all .3s;
+
+}
+
+.teamcard-social button:hover {
+    background-color: #fff;
+    color: #0F181D;
+}
+
+.teamcard-social button svg {
+    transform: translateY(4px);
+}
+
+.teamcard-box:hover .teamcard-social {
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+}

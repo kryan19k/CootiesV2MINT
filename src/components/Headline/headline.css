@@ -1,0 +1,24 @@
+.headline-box h4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00FFA3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.headline-box h2 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
