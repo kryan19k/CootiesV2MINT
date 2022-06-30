@@ -29,6 +29,7 @@
     color: #00FFA3 !important;
 }
 
+.header-right-nav a,
 .header-right-nav button {
     display: flex;
     align-items: center;
@@ -37,8 +38,8 @@
 
 }
 
-.header-right-nav button:first-of-type {
-    margin-left: 0;
+.header-right-nav a{
+    margin-left: 1rem;
 }
 
 .header-right-nav button:last-of-type {

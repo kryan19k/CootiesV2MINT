@@ -33,17 +33,25 @@
 
 .footer-white-btn {
     background-color: #00FFA3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .footer-white-btn:hover {
     background-color: #00c07a;
+    color: #fff;
 }
 
 .footer-dicord-icon {
     display: flex;
     align-items: center;
     gap: 6px;
+}
+
+.footer-dicord-icon:hover {
+    color: #fff;
 }
 
 .footer-dicord-icon svg:last-of-type {
@@ -60,16 +68,19 @@
     padding-top: 60px;
 }
 
-.footer-social-link button {
+.footer-social-link a {
     width: 60px;
     height: 60px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border: none;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.footer-social-link button svg:last-of-type {
+.footer-social-link a svg:last-of-type {
     position: absolute;
     left: 3px;
     top: 3px;
@@ -78,7 +89,7 @@
     transition: all .3s;
 }
 
-.footer-social-link button:hover svg:last-of-type {
+.footer-social-link a:hover svg:last-of-type {
     visibility: visible;
     opacity: 1;
 }

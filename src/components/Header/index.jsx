@@ -54,16 +54,16 @@ const Header = ({ ConnectHandler }) => {
                                 <a href="#faq" className="nav-link">
                                     Faq
                                 </a>
-                                <NavLink to="/team" className="nav-link">
+                                <a href="https://twitter.com/CootiesNFTs" target="_blank">
                                     <BsTwitter />
-                                </NavLink>
+                                </a>
                             </Nav>
                             <Nav className="ms-auto header-right-nav">
-                                <button className="btn-outline-1">
+                                <a href="https://discord.gg/4mR4YbT95A" className="btn-outline-1" target="_blank">
                                     <OutlineBtnOverlay />
                                     <SiDiscord />
                                     JOIN
-                                </button>
+                                </a>
                                 <button
                                     className="btn-bg-1"
                                     onClick={ConnectHandler}

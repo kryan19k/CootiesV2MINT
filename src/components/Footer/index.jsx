@@ -25,18 +25,25 @@ const Footer = () => {
                                 <h2>Join Our community & get Early access</h2>
                                 <img src={FooterHandImg} alt="hand-icon" />
                                 <div className="footer-join-btn">
-                                    <button className="btn-bg-1 footer-white-btn">
+                                    <a
+                                        href="#"
+                                        className="btn-bg-1 footer-white-btn"
+                                    >
                                         <BgBtnOverlay />
                                         WHITELIST NOW
-                                    </button>
-                                    <button className="btn-bg-1 footer-dicord-icon">
+                                    </a>
+                                    <a
+                                        href="https://discord.gg/4mR4YbT95A"
+                                        className="btn-bg-1 footer-dicord-icon"
+                                        target="_blank"
+                                    >
                                         <BgBtnOverlay />
                                         <FaDiscord />
                                         JOIN DISCORD
-                                    </button>
+                                    </a>
                                 </div>
                                 <div className="footer-social-link">
-                                    <button>
+                                    <a href="#">
                                         <svg
                                             width="27"
                                             height="24"
@@ -54,8 +61,8 @@ const Footer = () => {
                                             />
                                         </svg>
                                         <IconOverly />
-                                    </button>
-                                    <button>
+                                    </a>
+                                    <a href="#">
                                         <svg
                                             width="21"
                                             height="21"
@@ -69,8 +76,8 @@ const Footer = () => {
                                             />
                                         </svg>
                                         <IconOverly />
-                                    </button>
-                                    <button>
+                                    </a>
+                                    <a href="#">
                                         <svg
                                             width="22"
                                             height="22"
@@ -84,8 +91,8 @@ const Footer = () => {
                                             />
                                         </svg>
                                         <IconOverly />
-                                    </button>
-                                    <button>
+                                    </a>
+                                    <a href="https://twitter.com/CootiesNFTs" target="_blank">
                                         <svg
                                             width="24"
                                             height="20"
@@ -99,8 +106,8 @@ const Footer = () => {
                                             />
                                         </svg>
                                         <IconOverly />
-                                    </button>
-                                    <button>
+                                    </a>
+                                    <a href="#">
                                         <svg
                                             width="23"
                                             height="19"
@@ -114,8 +121,8 @@ const Footer = () => {
                                             />
                                         </svg>
                                         <IconOverly />
-                                    </button>
-                                    <button>
+                                    </a>
+                                    <a href="#">
                                         <svg
                                             width="24"
                                             height="24"
@@ -129,8 +136,8 @@ const Footer = () => {
                                             />
                                         </svg>
                                         <IconOverly />
-                                    </button>
-                                    <button>
+                                    </a>
+                                    <a href="#">
                                         <svg
                                             width="32"
                                             height="18"
@@ -152,7 +159,7 @@ const Footer = () => {
                                             />
                                         </svg>
                                         <IconOverly />
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </Col>
@@ -185,7 +192,7 @@ const Footer = () => {
                             <Col lg="4" className="order-2 order-lg-3">
                                 <div className="footer-bottom-menu">
                                     <Link to="/">Home</Link>
-                                    <Link to="/">About Us</Link>
+                                    <Link to="#about">About Us</Link>
                                     <Link to="/">Roadmap</Link>
                                     <Link to="/">FAQs</Link>
                                     <Link to="/">Articles</Link>

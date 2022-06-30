@@ -80,10 +80,14 @@
     font-size: 16px;
     line-height: 22px;
     transition: all .3s;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
 }
 
 .btn-outline-1:hover {
     border: 2px solid rgba(255, 255, 255, 0.4);
+    color: #fff;
 }
 
 .btn-outline-1 svg:first-of-type {

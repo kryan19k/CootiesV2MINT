@@ -19,7 +19,9 @@
 .about-card-box {
     background: rgba(255, 255, 255, 0.05);
     padding: 30px 35px;
-    height: 183.86px;
+    /* max-height: 183.86px; */
+    /* min-height: 210px; */
+    height: 100%;
     margin-top: 2.4rem;
 }
 

@@ -148,18 +148,7 @@ const About = () => {
                                     <Card
                                         img={Icon3}
                                         title="Metaverse Ready"
-                                        paragraph="A
-                                            Metaverse is a virtual world that
-                                            uses blockchain technology to create
-                                            a decentralized and secure
-                                            environment. NFTs can be used to
-                                            represent virtual assets in a
-                                            Metaverse, such as land, buildings,
-                                            or characters. Metaverse-ready NFTs
-                                            are designed to be compatible with
-                                            the Metaverse protocol, making them
-                                            easy to use in a Metaverse
-                                            environment."
+                                        paragraph="A Metaverse is a virtual world that uses blockchain technology to create a decentralized and secure environment. NFTs can be used to represent virtual assets in a Metaverse, such as land, buildings, or characters. Metaverse-ready NFTs are designed to be compatible with the Metaverse protocol, making them easy to use in a Metaverse environment."
                                     />
                                 </Col>
                             </Row>
