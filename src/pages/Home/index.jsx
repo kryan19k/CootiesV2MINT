@@ -24,32 +24,32 @@ const Home = () => {
     const [getFaqContent, setFaqContent] = useState([
         {
             id: uuidv4(),
-            title: "What is MiNFT ?",
-            body: "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.",
+            title: "What is The Songbird Network? ?",
+            body: "Songbird is the Canary network for Flare, it will have two distinct phases. Prior to the launch of Flare, Songbird will be instrumental in the continued testing of the Flare Time Series Oracle, the StateConnector and F-Asset systems and the network architecture. Post Flare launch, Songbird is intended to be a long term network for testing governance led changes to Flare, such as the incorporation of new F-Assets, changes to the FTSO, F-Asset systems or any other network change..",
             isCollapsed: false,
         },
         {
             id: uuidv4(),
-            title: "How we can buy and invest NFT ?",
-            body: "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.",
+            title: "How can we buy a Cooties NFTs ?",
+            body: "you can do so by participating in our live Mint happening on July 6th 2022. During this event, 8,888 Cooties will be minted and made available for purchase. The starting price of each Cootie will be $100 in SGB.",
             isCollapsed: false,
         },
         {
             id: uuidv4(),
-            title: "Why we should choose MiNFT ?",
-            body: "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.",
+            title: "Where can we buy $COOT? ?",
+            body: "CootieCoin $COOT can be purchased at Flare Finance or Oracle Swap.",
             isCollapsed: false,
         },
         {
             id: uuidv4(),
-            title: "Where we can buy and sell NFts ?",
-            body: "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.",
+            title: "Where can we buy and sell NFTs ?",
+            body: "There are a few Secondary Markets on Songbird, Sparkles, NFTSO and CootieMart",
             isCollapsed: false,
         },
         {
             id: uuidv4(),
-            title: "How secure is this token ?",
-            body: "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.",
+            title: "What Utility does a Cootie have? ?",
+            body: "The Cooties V2 will feature the abilty to stake and Earn $COOT. They will be used as in Game characters and membership passes to the NFT Arcade and Cootie Clubhouse",
             isCollapsed: false,
         },
     ]);

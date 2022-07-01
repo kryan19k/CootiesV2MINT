@@ -27,7 +27,7 @@ const JoinModal = ({ joinCloseHandler }) => {
                     <img src={JoinModalImg} alt="join-modal" />
                     <ul>
                         <li>Remaining</li>
-                        <li>4583 / 8888</li>
+                        <li>8888 / 8888</li>
                     </ul>
                     <ul>
                         <li>Price</li>
@@ -49,7 +49,7 @@ const JoinModal = ({ joinCloseHandler }) => {
                         <BgBtnOverlay />
                         MINT NOW
                     </button>
-                    <p>Presale & Whitelist : Soldout</p>
+                    <p>Presale & Whitelist : 2500/8888</p>
                     <div className="join-close-btn">
                         <button onClick={joinCloseHandler}>
                             <RiCloseLine />

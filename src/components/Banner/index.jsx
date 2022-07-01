@@ -19,7 +19,7 @@ const Banner = ({ mintModalHandler }) => {
                                 <Col lg={6}>
                                     <div className="banner-content">
                                         <h2>The Cooties V2 NFT Collection</h2>
-                                        <h4>3499 / 8888 Minted</h4>
+                                        <h4>0000 / 8888 Minted</h4>
                                         <div className="banner-btn">
                                             <button
                                                 className="btn-bg-1"
@@ -34,14 +34,14 @@ const Banner = ({ mintModalHandler }) => {
                                             </button>
                                         </div>
                                         <p>
-                                            Max 2 NFTs per wallet . Price 3333
+                                            Price 3333
                                             SGB + gas
                                         </p>
                                         <p>
-                                            MINT IS LIVE UNTIL
-                                            <span> 04 JuLY 04:00H</span>
+                                            MINT GOES LIVE ON
+                                            <span> 06 JuLY 04:00H</span>
                                         </p>
-                                        <p>Presale : SOLDOUT</p>
+                                        <p>Presale : 2500/8888</p>
                                         <img
                                             src={BannerTargetImg}
                                             alt="target"
@@ -87,7 +87,7 @@ const Banner = ({ mintModalHandler }) => {
                                 <Col lg="3">
                                     <div className="banner-mint-card">
                                         <h4 className="three">3</h4>
-                                        <p>Conform the Transaction</p>
+                                        <p>Confirm the Transaction</p>
                                     </div>
                                 </Col>
                                 <Col lg="3">
@@ -118,19 +118,19 @@ const Banner = ({ mintModalHandler }) => {
                                     </Col>
                                     <Col lg="3" sm="3" className="mb-4 mb-md-0">
                                         <div className="banner-counter-content">
-                                            <h2>896</h2>
+                                            <h2>0</h2>
                                             <p>Total Owners</p>
                                         </div>
                                     </Col>
                                     <Col lg="3" sm="3" className="mb-4 mb-md-0">
                                         <div className="banner-counter-content">
-                                            <h2>3456</h2>
+                                            <h2>0</h2>
                                             <p>Floor Price (SGB)</p>
                                         </div>
                                     </Col>
                                     <Col lg="3" sm="3" className="mb-4 mb-md-0">
                                         <div className="banner-counter-content">
-                                            <h2>25.5K</h2>
+                                            <h2>0</h2>
                                             <p>Volume Traded (SGB)</p>
                                         </div>
                                     </Col>

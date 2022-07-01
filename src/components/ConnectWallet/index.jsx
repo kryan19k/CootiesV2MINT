@@ -27,14 +27,14 @@ const ConnectWallet = ({ connectCloseHandler }) => {
                         <button>
                             <div>
                                 <img src={Icon2} alt="icon" />
-                                <p>Formatic</p>
+                                <p>Bifrost</p>
                             </div>
                             <MdKeyboardArrowRight />
                         </button>
                         <button>
                             <div>
                                 <img src={Icon3} alt="icon" />
-                                <p>Trust Wallet</p>
+                                <p>D'Cent</p>
                             </div>
                             <MdKeyboardArrowRight />
                         </button>

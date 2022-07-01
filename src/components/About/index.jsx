@@ -134,21 +134,21 @@ const About = () => {
                                     <Card
                                         img={Icon1}
                                         title="Gaming NFTs"
-                                        paragraph="Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure."
+                                        paragraph="Plug in your Cootie to our P2E Battle Card Game Coming Soon!"
                                     />
                                 </Col>
                                 <Col lg="4">
                                     <Card
                                         img={Icon2}
                                         title="Play to Earn"
-                                        paragraph='Finibus Bonorum et Malorum " by Cicero are also reproduced in their exact original.'
+                                        paragraph='Use Your Cootie to battle other players and earn CootieCoin!'
                                     />
                                 </Col>
                                 <Col lg="4">
                                     <Card
                                         img={Icon3}
                                         title="Metaverse Ready"
-                                        paragraph="A Metaverse is a virtual world that uses blockchain technology to create a decentralized and secure environment. NFTs can be used to represent virtual assets in a Metaverse, such as land, buildings, or characters. Metaverse-ready NFTs are designed to be compatible with the Metaverse protocol, making them easy to use in a Metaverse environment."
+                                        paragraph="Metaverse-ready NFTs are designed to be compatible with the Metaverse protocol, making them easy to use in a Metaverse environment."
                                     />
                                 </Col>
                             </Row>

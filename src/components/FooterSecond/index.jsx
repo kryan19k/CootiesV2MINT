@@ -20,9 +20,7 @@ const FooterSecond = () => {
                             <div className="fs-about">
                                 <FooterLogo />
                                 <p>
-                                    Bithu is great solution for launch your NFT
-                                    for minting. It uses a dictionary over 200
-                                    Latin words, combined with a handful.
+                                   The Cooties is a collection of 8,888 NFTs living on the songbird Network.
                                 </p>
                             </div>
                         </div>
