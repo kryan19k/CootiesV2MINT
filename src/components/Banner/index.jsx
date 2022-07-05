@@ -34,14 +34,15 @@ const Banner = ({ mintModalHandler }) => {
                                             </button>
                                         </div>
                                         <p>
-                                            Price 3333
+                                            Price 3000
                                             SGB + gas
                                         </p>
                                         <p>
                                             MINT GOES LIVE ON
-                                            <span> 06 JuLY 04:00H</span>
+                                            <span> 06 JULY 14:30 EST</span>
                                         </p>
-                                        <p>Presale : 2500/8888</p>
+                                        <p>Presale Starts at 09:00-14:00 EST :
+                                            2500/8888 </p>
                                         <img
                                             src={BannerTargetImg}
                                             alt="target"
